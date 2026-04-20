@@ -1,14 +1,16 @@
-print("A:")
 
-A = int(input())
-print("A:")
 
-B = int(input())
-print("B:")
+def add(a,b):
+    return a+b
 
-print("+-*/")
-op = input()
+def minus(a,b):
+    return a-b
 
+
+def mul(a,b):
+    return a*b
+def mod(a,b):
+    return a/b
 if op == "+":
     print(A+B)
 elif op == "-":
